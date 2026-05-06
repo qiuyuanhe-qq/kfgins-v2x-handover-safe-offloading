@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+results/
+out/
+Makefile
+*.o
+*.so
+results_*.csv
+results_task_log.csv
+*.sca
+*.vec
+.vscode/

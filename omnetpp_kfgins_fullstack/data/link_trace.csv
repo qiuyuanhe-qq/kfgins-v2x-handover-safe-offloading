@@ -1,0 +1,6 @@
+time,vehicle_id,uplink_mbps,downlink_mbps,mec_queue_s,next_ho_s,ho_active
+0,veh0,8.5,14.0,0.08,2.5,0
+1,veh0,8.0,13.5,0.10,2.2,0
+2,veh0,7.0,12.0,0.12,1.8,0
+3,veh0,5.5,10.0,0.15,1.2,0
+4,veh0,4.0,8.0,0.18,0.8,0

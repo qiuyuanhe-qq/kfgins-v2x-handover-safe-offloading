@@ -1,0 +1,49 @@
+{
+  "speeds_mps": [
+    5,
+    10,
+    15,
+    20,
+    25
+  ],
+  "gnss_sigma_m": [
+    1.5,
+    5.0,
+    12.0
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "tasks_per_setting": 800,
+  "boundary_task_ratio": 0.75,
+  "cell_scale": 0.75,
+  "queue_load": 0.88,
+  "slot_s": 0.1,
+  "a3_hysteresis_db": 3.0,
+  "ttt_s": 0.16,
+  "handover_interruption_s": 0.1,
+  "risk_epsilon": 0.1,
+  "edge_cpu_cycles_per_s": 30000000000,
+  "device_cpu_cycles_per_s": 3400000000,
+  "base_uplink_MBps": 11.0,
+  "base_downlink_MBps": 18.0,
+  "boundary_distance_range_m": [
+    8.0,
+    42.0
+  ],
+  "interior_distance_range_m": [
+    42.0,
+    95.0
+  ],
+  "failed_latency_penalty_s": 0.3,
+  "algorithms": [
+    "nearest_rtt",
+    "expected_cost",
+    "risk_no_cov",
+    "kfgins_risk"
+  ]
+}

@@ -1,0 +1,1 @@
+Copy LinkTraceLogger.* into Simu5G as described in the top-level README. Add the logger submodule to SingleCell_Standalone.ned, rebuild Simu5G, and run the Standalone configuration to create kfgins_fullstack/data/link_trace.csv.
