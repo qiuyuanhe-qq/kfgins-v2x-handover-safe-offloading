@@ -1,3 +1,20 @@
+# kfgins-v2x-handover-safe-offloading
+
+## 📦 About This Project
+The released package contains a SUMO-trace-driven Python simulator, an OMNeT++ C++ prototype of the KF-GINS offloading controller, and a Simu5G-compatible link-trace logger for exporting uplink/downlink rate, MEC queue delay, estimated handover timing, and handover activity.
+
+The full native binding of all Simu5G PHY/MAC/MEC signals is left as an extensible implementation path.
+
+---
+## 🛠️ Components
+- `omnetpp_kfgins_fullstack`: OMNeT++ C++ prototype of the KF-GINS offloading controller
+- `python_proxy`: SUMO-trace-driven Python simulator
+- `simu5g_patch`: Simu5G-compatible link-trace logger
+- `scripts`: Auxiliary scripts for data processing
+
+
+
+
 # KF-GINS Handover-Safe V2X Edge Offloading
 
 This repository provides a reproducible code package for the paper-oriented implementation of **KF-GINS-aided handover-safe task offloading for V2X edge communications**.
